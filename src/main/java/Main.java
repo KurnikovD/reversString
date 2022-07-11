@@ -26,6 +26,7 @@ public class Main {
         long start = System.currentTimeMillis();
 
         for (int i = 0; i < 100_000; i++){
+//            resultString = new StringBuilder(str).reverse().toString();
             resultString = reversString(str);
             if (i == 999){
                 end1000 = System.currentTimeMillis();
